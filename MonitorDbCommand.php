@@ -243,6 +243,7 @@ class MonitorDbCommand extends CDbCommand
         return $this;
     }
 
+    /*
 	public function execute($params = [])
 	{
         $_start = microtime(true);
@@ -253,6 +254,7 @@ class MonitorDbCommand extends CDbCommand
         }
         return $n;
 	}
+	*/
 
 	private function queryInternal($method, $mode, $params = [])
 	{
